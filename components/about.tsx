@@ -13,7 +13,7 @@ export default function About() {
               About <span className="text-gradient">WEBD</span>
             </h2>
             <p className="text-light/80 text-lg mb-6">
-              At WEBD, we believe that exceptional design is the foundation of a powerful online presence. We're
+              At WEBD, we believe that exceptional design is the foundation of a powerful online presence. We&apos;re
               dedicated to helping small businesses stand out in a crowded digital landscape with custom solutions that
               are both beautiful and functional.
             </p>

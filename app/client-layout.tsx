@@ -2,13 +2,11 @@
 
 import type React from "react"
 import "@/app/globals.css"
-import { Inter } from "next/font/google"
 import { usePathname } from "next/navigation"
 import { useEffect } from "react"
 import Navbar from "@/components/navbar"
 import Footer from "@/components/footer"
 import { ThemeProvider } from "@/components/theme-provider"
-import FallingTechSymbols from "@/components/falling-tech-symbols"
 import Hero from "@/components/hero"
 import ServicesGrid from "@/components/services-grid"
 import About from "@/components/about"
@@ -17,8 +15,6 @@ import Portfolio from "@/components/portfolio"
 import Testimonials from "@/components/testimonials"
 import Contact from "@/components/contact"
 import ScrollToTop from "@/components/scroll-to-top"
-
-const inter = Inter({ subsets: ["latin"] })
 
 export default function ClientLayout({
   children,
@@ -37,7 +33,6 @@ export default function ClientLayout({
 
   return (
     <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={false} forcedTheme="dark">
-      <FallingTechSymbols />
       <div className="flex min-h-screen flex-col relative z-10">
         <Navbar />
         <div className="flex-1">

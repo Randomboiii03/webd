@@ -2,7 +2,7 @@
 
 import Link from "next/link"
 import { useRouter, usePathname } from "next/navigation"
-import { Instagram, Facebook, Linkedin, Twitter } from "lucide-react"
+import { Facebook } from "lucide-react"
 import { companyInfo, contactInfo } from "@/constants/company"
 
 export default function Footer() {

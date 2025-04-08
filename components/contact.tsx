@@ -3,10 +3,7 @@ import {
   Mail,
   MapPin,
   Phone,
-  Instagram,
-  Facebook,
-  Linkedin,
-  Twitter,
+  Facebook
 } from "lucide-react"
 import { contactInfo, companyInfo } from "@/constants/company"
 
@@ -23,7 +20,7 @@ export default function Contact() {
         <div className="max-w-4xl mx-auto bg-dark-700 rounded-lg shadow-lg overflow-hidden relative">
           <div className="p-8 md:p-12 relative z-10">
             <h3 className="text-2xl font-bold mb-8 text-center text-glow">
-              Let's build something together. Reach out today.
+              Let&apos;s build something together. Reach out today.
             </h3>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
@@ -99,8 +96,8 @@ export default function Contact() {
 
             <div className="text-center">
               <p className="text-lg text-light/80 max-w-2xl mx-auto">
-                Whether you're looking to create a new website, refresh your brand, or enhance your digital marketing,
-                we're here to help you achieve your goals.
+                Whether you&apos;re looking to create a new website, refresh your brand, or enhance your digital marketing,
+                we&apos;re here to help you achieve your goals.
               </p>
             </div>
           </div>

@@ -97,7 +97,7 @@ export default function Navbar() {
             Testimonials
           </button>
           <Button onClick={() => scrollToSection("contact")} className="ml-4">
-            Let's Talk
+            Let&apos;s Talk
           </Button>
         </nav>
 
@@ -146,7 +146,7 @@ export default function Navbar() {
           Testimonials
         </button>
         <Button onClick={() => scrollToSection("contact")} className="mt-4">
-          Let's Talk
+          Let&apos;s Talk
         </Button>
       </div>
     </header>

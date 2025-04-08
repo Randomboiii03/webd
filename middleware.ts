@@ -22,7 +22,7 @@ export function middleware(request: NextRequest) {
   const response = NextResponse.next()
 
   // Get client IP address
-  const ip = request.ip || "unknown"
+  const ip = request.headers.get("x-forwarded-for") || "unknown"
 
   // Basic DDoS protection with rate limiting
   if (ip !== "unknown") {

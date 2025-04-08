@@ -32,7 +32,7 @@ export default function TermsOfService() {
           <section className="mb-8">
             <h2 className="text-xl font-bold mb-4">1. Introduction</h2>
             <p className="mb-4">
-              Welcome to {companyInfo.name} ("we," "our," or "us"). By accessing our website or using our services, you
+              Welcome to {companyInfo.name} (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;). By accessing our website or using our services, you
               agree to be bound by these Terms of Service and all applicable laws and regulations. If you do not agree
               with any of these terms, you are prohibited from using or accessing this site.
             </p>
@@ -50,7 +50,7 @@ export default function TermsOfService() {
               <li>Use the materials for any commercial purpose or for any public display</li>
               <li>Attempt to decompile or reverse engineer any software contained on our website</li>
               <li>Remove any copyright or other proprietary notations from the materials</li>
-              <li>Transfer the materials to another person or "mirror" the materials on any other server</li>
+              <li>Transfer the materials to another person or &quot;mirror&quot; the materials on any other server</li>
             </ul>
             <p className="mt-4">
               This license shall automatically terminate if you violate any of these restrictions and may be terminated
@@ -63,7 +63,7 @@ export default function TermsOfService() {
           <section className="mb-8">
             <h2 className="text-xl font-bold mb-4">3. Disclaimer</h2>
             <p className="mb-4">
-              The materials on our website are provided on an 'as is' basis. We make no warranties, expressed or
+              The materials on our website are provided on an &apos;as is&apos; basis. We make no warranties, expressed or
               implied, and hereby disclaim and negate all other warranties including, without limitation, implied
               warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of
               intellectual property or other violation of rights.
@@ -100,7 +100,7 @@ export default function TermsOfService() {
             <p>
               We have not reviewed all of the sites linked to our website and are not responsible for the contents of
               any such linked site. The inclusion of any link does not imply endorsement by us of the site. Use of any
-              such linked website is at the user's own risk.
+              such linked website is at the user&apos;s own risk.
             </p>
           </section>
 

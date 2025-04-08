@@ -30,7 +30,7 @@ export default function Hero() {
           className="text-lg px-8 py-6 relative overflow-hidden group"
         >
           <span className="absolute inset-0 w-full h-full bg-gradient-to-r from-primary/50 to-primary group-hover:opacity-90 opacity-0 transition-opacity duration-300"></span>
-          <span className="relative">Let's Talk</span>
+          <span className="relative">Let&apos;s Talk</span>
         </Button>
 
         <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
