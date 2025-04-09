@@ -99,13 +99,6 @@ export default function Portfolio() {
               <div className="absolute inset-0 bg-gradient-to-t from-dark/90 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6 z-20">
                 <h3 className="text-xl font-bold text-white text-glow">{item.title}</h3>
                 <p className="text-primary">{item.category}</p>
-                {item.website && (
-                  <div className="mt-2">
-                    <span className="text-light/70 text-sm flex items-center gap-1">
-                      <ExternalLink size={14} /> Visit website
-                    </span>
-                  </div>
-                )}
               </div>
             </div>
           ))}
